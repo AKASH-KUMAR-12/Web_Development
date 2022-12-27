@@ -1,0 +1,309 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>Welcome to Sikkim Tourist Places</title>
+
+    <link rel="canonical" href="carousel.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    
+    <!-- Favicons -->
+<link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#712cf9">
+
+
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+        *{
+          font-size: 18px;
+            margin: 0;
+            padding: 0;
+        }
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+     .heading{
+        background: url("sikkim.jpg");
+        background-repeat: no-repeat;
+        height: 100vh;
+     }
+   .state{
+    border-radius: 50px;
+    width: 350px;
+    margin: 50px;
+    transition: all .3s ease-in; 
+  }
+  .state:hover {
+    transform: scale(1.2);
+    box-shadow: 0.5rem 0.5rem 0rem 0.01rem wheat;
+  }
+   
+   h2{
+    margin-left: 20px;
+   }
+   .black{
+    background: black;
+    width: 100%;
+    color: wheat;
+   }
+   .col-lg-4 p{
+      margin: 20px;
+   }
+   hr{
+    color: white;
+    
+   }
+   h1{
+    position: absolute;
+    top: 820px;
+    left: 40%;
+    font-weight: 1000;
+    
+   }
+   .about{
+    margin-top: 140px;
+   }
+   .about p{
+    padding: 20px;
+    font-size: large;
+   }
+   a{
+    text-decoration: none;
+   }
+   .flex{
+    display: flex;
+   }
+   .flex img{
+    width: 350px;
+    margin: 20px;
+    border-radius: 10px;
+   }
+   .flex p{
+    width: 60%;
+   }
+   .flex img:hover{
+    transition: all .99s ease;
+    width: 450px;
+    z-index: 2;
+   }
+   button{
+    margin-top: 50px;
+   }
+   .last{
+    padding: 40px 0;
+    background-color: #4b4c4d;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.last .social{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 25px;
+    color: #4b4c4d;
+}
+.last .social a{
+    font-size: 24px;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+.last .social img{
+  width: 45px;
+}
+.last .social a:hover{
+    opacity: 0.9;
+
+}
+.container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+.last ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.last ul li dia{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.last ul li{
+display: inline-block;
+padding: 0 15px;
+}
+.last ul li a:hover{
+    opacity: 1;
+}
+.last .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<main>
+    <div class="heading">
+    </div>
+    <div class="about">
+        <h1>ABOUT SIKKIM</h1>
+        <div class="flex">
+          <img src="map-sikkim.jpg" alt="">
+        <p>Sikkim is a state in Northeastern India. It borders the Tibet Autonomous Region of China in the north and northeast, Bhutan in the east, Province No. 1 of Nepal in the west and West Bengal in the south. Sikkim is also close to the Siliguri Corridor, which borders Bangladesh. Sikkim is the least populous and second smallest among the Indian states. Situated in the Eastern Himalaya, Sikkim is notable for its biodiversity, including alpine and subtropical climates, as well as being a host to Kangchenjunga, the highest peak in India and third highest on Earth.[8] Sikkim's capital and largest city is Gangtok. Almost 35% of the state is covered by Khangchendzonga National Park – a UNESCO World Heritage Site.</p>
+    </div>
+</div>
+
+    <div class="black">
+    <div class="row">
+        
+      <div class="col-lg-4">
+       
+        <img class="state" src="nathula.jpeg" alt="">
+
+        <h2 class="fw-normal">Nathula Pass</h2>
+        <p>Nathula, one of the highest motorable roads in the world, is a mountain pass in the Himalayan peaks that co-joins Sikkim and China. Situated on the Indo-Tibetan border 14450 ft. above sea level, Nathu La is one of the most important Himalayan passes in the country. 
+</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="state" src="pelling.jpg" alt="">
+
+        <h2 class="fw-normal">Pelling</h2>
+        <p>Pelling, a beautiful town in the West district of Sikkim, has become the second biggest tourist destination in Sikkim after Gangtok. Located 10 km from Geyzing and 130 km from Gangtok, the main attraction of the place is the breathtaking sight of the Khangchendzonga and the neighbouring peaks.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="state" src="south.jpg" alt="">
+        <h2 class="fw-normal">South Sikkim</h2>
+        <p>Surrounded by beautiful forests and majestic hills, South Sikkim is the perfect vacation spot for someone looking for a retreat in the midst of nature in its most natural form.</p>
+
+    
+      </div>
+      </div>
+      <hr>
+      <div class="row">
+      <div class="col-lg-4">
+        <img class="state" src="chopta.jpg" alt="">
+
+        <h2 class="fw-normal">Chopta Valley</h2>
+        <p>Chopta is a very famous tourist hotspot in North Sikkim known for its varying hues. Famous as the "Valley of flowers", the Chopta Valley is popular for its riot of colours during summer months. This valley is unexplored and untouched, as a very few tourists travel to this destination.</p>
+      </div>
+      <div class="col-lg-4">
+        <img class="state" src="kasturi.jpg" alt="">
+
+        <h2 class="fw-normal">Kasturi Trek</h2>
+        <p>Kasturi trek is a round trek passing Goecha la pass and offers extraordinary panaromic mountain views. The Trek starts from Yuksom and goes up to Goecha La, the highest point of this trek. From here, you can see the stunning view of Talung Glacier and Mt Kanchenjunga. </p>
+      </div>
+      <div class="col-lg-4">
+        <img class="state" src="gangtok.jpg" alt="">
+
+        <h2 class="fw-normal">Gangtok</h2>
+        <p>Incredibly alluring, pleasantly boisterous and wreathed in clouds - Gangtok, the capital of Sikkim, is one of the most popular hill stations in India. Lying at the height of 1650 m above sea level, the town during its bright sunny days offers spectacular views of Mt. Kanchenjunga.</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+    </div>
+  <!-- FOOTER -->
+  <footer class="container">
+    <a href="index.html"><button class="btn btn-outline-success me-1" data-bs-toggle="modal" data-bs-target="#loginBackdrop" type="button">Back to Home Page</button></a>
+  </footer>
+  <div class="last">
+    <div class="social">
+      <a href="#"><img src="insta.png" alt=""></a>
+      <a href="#"><img src="snap.png" alt=""></a>
+      <a href="#"><img src="twit.png" alt=""></a>
+      <a href="#"><img src="fb.png" alt=""></a>
+    </div>
+    <ul class="list">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+    <p class="copyright">Minor Project @2022</p>
+  </div>
+</main>
+
+
+  
+
+      
+  </body>
+</html>

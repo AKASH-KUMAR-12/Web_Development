@@ -1,0 +1,371 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    overflow-x: hidden;
+}
+.nav{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    background-color: #001a33;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav .umb{
+    position: absolute;
+    left: 380px;
+    top: 15px;
+    width: 500px;
+    z-index: 2;
+}
+.nav .btn{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    padding: 10px 30px;
+    font-size: 25px;
+    z-index: 1;
+}
+.nav::before{
+    content: ' ';
+    position: absolute;
+    top: 150px;
+    width: 100%;
+    height: 4px;
+    background: black;
+    background-size: 50px;
+}
+.nav .heading h1 pre{
+    position: absolute;
+    color: red;
+    top: 45px;
+    left: 30%;
+    font-size: 60px;
+    font-family: 'Rubik Distressed', cursive;
+}
+.nav .plane img{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 200px;
+    z-index: 1;
+    opacity:0;
+    animation: animate_plane 2s linear;
+}
+
+@keyframes animate_plane
+{
+    0%
+    {
+        transform: translateX(100px) translateY(500px);
+        opacity: 1;
+    }
+    25%
+    {
+        transform: translateX(200px) translateY(350px);
+        opacity: 1;
+    }
+    50%
+    {
+        transform: translateX(300px) translateY(200px);
+        opacity: 1;
+    } 
+     75%
+    {
+        transform: translateX(400px) translateY(50px);
+        opacity: 1;
+    }
+    100%
+    {
+        transform: translateX(500px) translateY(-150px);
+    }
+}
+
+.logo1{
+    position: absolute;
+    left: 20%;
+    top: 72%;
+    animation: animate_bus 10s linear infinite;
+}
+@keyframes animate_bus
+{
+    0%
+    {
+        transform: translateX(-300px) translateY(-10px);
+    }
+    25%
+    {
+        transform: translateX(200px) translateY(-10px);
+    }
+    50%
+    {
+        transform: translateX(400px) translateY(-10px);
+    } 
+     75%
+    {
+        transform: translateX(800px) translateY(-10px);
+    }
+    100%
+    {
+        transform: translateX(1000px) translateY(-10px);
+    }
+}
+
+.logo2{
+    position: absolute;
+    left: 20%;
+    top: 75%;
+    animation: animate_car 6s linear infinite;
+}
+@keyframes animate_car
+{
+    0%
+    {
+        transform: translateX(-300px) translateY(-10px);
+    }
+    25%
+    {
+        transform: translateX(200px) translateY(-10px);
+    }
+    50%
+    {
+        transform: translateX(300px) translateY(-10px);
+    } 
+     75%
+    {
+        transform: translateX(600px) translateY(-10px);
+    }
+    100%
+    {
+        transform: translateX(1000px) translateY(-10px);
+    }
+}
+.content{
+    
+    background: rgba(0, 0, 0, 0.75) url(sda1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    
+    width: 100vw;
+    color: white;
+}
+.content .st pre{
+    padding-top: 50px;
+    color: red;
+    overflow: hidden;
+    font-family: 'Viga', sans-serif;
+    letter-spacing: 2px;
+}
+.list .state a li{
+    transition: all .4s ease-in ;
+    font-family: 'Michroma', sans-serif;
+}
+.content .item{
+    display: flex;
+}
+.list li{
+    font-size: 50px;
+    margin-left: 50px;
+    color: red;
+    list-style-type: none;
+}
+.list a{
+    text-decoration: none;
+    color: white;
+}
+
+.content h1{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    
+}
+img{
+    position: absolute;
+}
+.map{
+    padding-top: 80px;
+}
+.map .ph{
+    width: 620px;
+    height: 600px;
+    position: absolute;
+    left: 50%;
+    top: 52%;
+    border-radius: 50px;
+}
+.map .odisha{
+    position: absolute;
+    width: 35px;
+    left: 71%;
+    top: 94%;
+    visibility: hidden;
+}
+.map .o{
+    position: absolute;
+    width: 50px;
+    left: 70%;
+    top: 98%;
+    visibility: hidden;
+    
+}
+.map span{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.map .mp{
+    position: absolute;
+    width: 50px;
+    left: 65%;
+    top: 87%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .m{
+    position: absolute;
+    width: 50px;
+    left: 63.5%;
+    top: 91%;
+    visibility: hidden;
+}
+.map .bihar{
+    position: absolute;
+    width: 50px;
+    left: 73%;
+    top: 82%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .b{
+    position: absolute;
+    width: 50px;
+    left: 70%;
+    top: 86%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .maha{
+    position: absolute;
+    width: 50px;
+    left: 62%;
+    top: 97%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .ma{
+    position: absolute;
+    width: 50px;
+    left: 51%;
+    top: 101%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .punjab{
+    position: absolute;
+    width: 50px;
+    left: 62%;
+    top: 69%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .p{
+    position: absolute;
+    width: 50px;
+    left: 61%;
+    top: 73%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .rajasthan{
+    position: absolute;
+    width: 50px;
+    left: 61%;
+    top: 79%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .r{
+    position: absolute;
+    width: 50px;
+    left: 54%;
+    top: 83%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .sikkim{
+    position: absolute;
+    width: 50px;
+    left: 75.25%;
+    top: 76.5%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .s{
+    position: absolute;
+    width: 50px;
+    left: 65%;
+    top: 80%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .up{
+    position: absolute;
+    width: 50px;
+    left: 68%;
+    top: 78%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .u{
+    position: absolute;
+    width: 50px;
+    left: 60%;
+    top: 81%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .wb{
+    position: absolute;
+    width: 50px;
+    left: 75%;
+    top: 88%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .w{
+    position: absolute;
+    width: 50px;
+    left: 65%;
+    top: 92%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .kerala{
+    position: absolute;
+    width: 50px;
+    left: 63.5%;
+    top: 115%;
+    width: 35px;
+    visibility: hidden;
+}
+.map .k{
+    position: absolute;
+    width: 50px;
+    left: 60%;
+    top: 119%;
+    width: 35px;
+    visibility: hidden;
+}
