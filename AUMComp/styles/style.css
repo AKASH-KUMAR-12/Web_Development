@@ -1,0 +1,86 @@
+
+.main_container {
+    width: 100%;
+    padding: 0.2rem;
+    /* padding-right: .5rem; */
+    font-family: 'Roboto', sans-serif;
+    border-radius: 0.5rem;
+}
+
+.main_container .card {
+    background-color: white;
+    /* margin: .3rem  .3rem  .3rem  0rem ; */
+    width: 96%;
+    margin-left: 0.3rem;
+    padding-top: .1rem;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.26);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.26);
+}
+
+.main_container .card .display {
+    position: relative;
+    background-image: url(../components/cardBackground.svg);
+    color: white;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.main_container .card .display .before p {
+    font-size: 1.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.main_container .card .click {
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+
+.main_container .card .content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 1.4rem;
+}
+
+.main_container .card .content a {
+    color: #527cba;
+}
+
+.main_container .card .content ul {
+    font-size: 0.8rem;
+    padding: 0.2rem;
+}
+.main_container .card li p{
+    width: 9rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.main_container .card .content p {
+    margin: 0.2rem;
+}
+
+.main_container .card .content a {
+    font-size: 0.8rem;
+    cursor: pointer;
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+.box_shadow{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.26);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.26);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.26);
+  }
+  .vl {
+    margin: 0rem 2.5rem 1.5rem 0rem;
+    border-left: 2px solid #b9b9b9;
+    height: 15rem;
+
+  }
